@@ -1,0 +1,1872 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+  <meta name="description" content="Recensensement et comptabilisation des caisses de grève contre la réforme de retraite."/>
+  <meta property="og:title" content="Participez aux caisses de grève"/>
+  <meta property="og:description" content="Recensensement et comptabilisation des caisses de grève contre la réforme de retraite."/>
+  <meta property="og:image" content="https://caissesdegreve.github.io/visuel.jpg?1579099555"/>
+  <meta property="og:site_name" content="Participez aux caisses de grève"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:alt" content="Participez aux caisses de grève"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" rel="stylesheet">
+  <title>Participez aux caisses de grève</title>
+
+  <style>
+    body {
+      font-family: 'Exo 2', sans-serif;
+      background-color: #fff3f3;
+    }
+    h1 {
+      font-weight: 900;
+      text-align: center;
+      color: #d94e52;
+      font-size: 40px;
+    }
+    h2 {
+      font-weight: 900;
+      text-align: center;
+      /*color: #d94e52;*/
+      font-size: 30px;
+      padding-bottom: 40px;
+    }
+    h3 {
+      margin-bottom: 0.5em;
+    }
+
+    .filtres {
+      width: 100%;
+      max-width:1024px;
+      text-align: left;
+      margin-left:auto;margin-right:auto;
+      padding-bottom: 0.5em;
+    }
+    table.cdg {
+    width: 100%;
+    max-width:1024px;
+    text-align: left;
+    margin-left:auto;margin-right:auto;
+    border-collapse: collapse;
+  }
+  table.cdg td, table.cdg th {
+    padding: 5px 4px;
+  }
+  table.cdg tbody td {
+    font-size: 13px;
+  }
+  table.cdg tr:nth-child(even) {
+    background: #ffffff;
+  }
+  table.cdg thead {
+    background: #d94e52;
+  }
+  table.cdg thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  th.montant, th.participants, td.rank {
+    text-align:right;
+  }
+  td.montant, td.participants {
+    text-align:right;
+    font-weight: 900;
+    color: #70831d;
+  }
+  table.cdg a {
+    text-decoration: none;
+    color: #06446b;
+  }
+  .logo {
+    display:block;
+    width: 300px;
+    margin-left :auto;
+    margin-right: auto;
+  }
+  .twitter-follow-button {
+    display:block;
+    margin-left :auto;
+    margin-right: auto;
+  }
+  ul.share-buttons{
+    display:block;
+    width:76px;
+    margin-left :auto;
+    margin-right: auto;
+    list-style: none;
+    padding: 0;
+  }
+
+  ul.share-buttons li{
+    display: inline;
+  }
+
+  ul.share-buttons .sr-only{
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+  }
+
+  ul.share-buttons img{
+    width: 32px;
+  }
+  .total {
+    font-size:130%;
+  }
+  .pill {
+    display: inline-block;
+    background: #7d6969;
+    color: white;
+    font-weight: 700;
+    font-size: 90%;
+    margin-left: 5px;
+    padding: 0px 5px 1px 5px;
+    border-radius: 6px;
+  }
+  .pillfilter {
+    cursor: pointer;
+    display: inline-block;
+    background: #fff3f3;
+    color: #292f33;
+    font-weight: 700;
+    font-size: 90%;
+    margin-left: 5px;
+    padding: 2px 8px 3px 8px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    border: #7d6969 solid 1px;
+  }
+  .pillfilter.selected {
+    background: #7d6969;
+    color: white;
+  }
+  </style>
+</head>
+<body>
+  <img class="logo" src="/cdg.png" />
+  <ul class="share-buttons">
+  <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fcaissesdegreve.github.io&quote=Participez%20aux%20caisses%20de%20gr%C3%A8ve" title="Partager sur Facebook" target="_blank"><img alt="Partagez sur Facebook" src="/images/social_flat_rounded_rects_svg/Facebook.svg" /></a></li>
+  <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fcaissesdegreve.github.io&text=Participez%20aux%20caisses%20de%20gr%C3%A8ve:%20http%3A%2F%2Fcaissesdegreve.github.io" target="_blank" title="Partager sur Twitter"><img alt="Partager sur Twitter" src="/images/social_flat_rounded_rects_svg/Twitter.svg" /></a></li>
+  </ul>
+  <h1>PARTICIPEZ AUX CAISSES DE GRÈVE</h1>
+  <a href="https://twitter.com/caissesdegreve?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @caissesdegreve</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <h2>Point du mercredi 15 janvier 2020</h2>
+  <div class="filtres"><h3>Domaines</h3><div class="pillfilter" target="D13">Interprofessionnel (23)</div><div class="pillfilter" target="D10">SNCF (56)</div><div class="pillfilter" target="D11">RATP (37)</div><div class="pillfilter" target="D2">Éducation (96)</div><div class="pillfilter" target="D18">Média (1)</div><div class="pillfilter" target="D0">Pétrochimie (1)</div><div class="pillfilter" target="D12">Santé (4)</div><div class="pillfilter" target="D7">Commerce  (1)</div><div class="pillfilter" target="D8">Restauration (2)</div><div class="pillfilter" target="D1">Services (1)</div><div class="pillfilter" target="D15">Culture (6)</div><div class="pillfilter" target="D14">Énergie (3)</div><div class="pillfilter" target="D17">Propreté (1)</div><div class="pillfilter" target="D6">Finance (1)</div><div class="pillfilter" target="D3">La Poste (1)</div><div class="pillfilter" target="D5">Agroalimentaire (1)</div><div class="pillfilter" target="D4">Portuaire (1)</div><div class="pillfilter" target="D9">Tourisme (3)</div>
+  </div>
+  <table class="cdg">
+  <thead>
+  <tr>
+  <th>#</th>
+  <th class="nom">Caisse</th>
+  <th class="montant">Montant</th>
+  <th class="participants">Partipants</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr><td colspan=4><span style="font-size:90%"><sup>*</sup> Montant et nombre de participants non exhaustif car certaines caisses ne publient pas ces informations</span></td></tr>
+  <tr style="border-bottom:1pt solid black;">
+    <td class="rank"><span class="total">236</span></td>
+    <td class="nom"></td>
+    <td class="montant"><span class="total">4 090 653 €<sup>*</sup></span></td>
+    <td class="participants"><span class="total">61 674<sup>*</sup></span></td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">1</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/solidarite-financiere">Solidarité financière avec les salariés en grève</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">2 350 006 €</td>
+  <td class="participants">35 302</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">2</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-cgt-mobilisation">Cagnotte solidarité cgt mobilisation</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">223 177 €</td>
+  <td class="participants">3 123</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">3</td>
+  <td class="nom"><a href="https://www.papayoux-solidarite.com/fr/collecte/solidarite-grevistes-federation-sud-rail">Solidarité grévistes / fédération sud-rail</a><div class="pill">SNCF</div></td>
+  <td class="montant">170 080 €</td>
+  <td class="participants">2 355</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">4</td>
+  <td class="nom"><a href="https://recondu.stream/">Le stream reconductible</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">132 703 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">5</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/k352mful">Caisse de grève contre la réforme des retraites</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">83 392 €</td>
+  <td class="participants">1 068</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">6</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/s0bvz7hp">Caisse de grève solidaires ratp</a><div class="pill">RATP</div></td>
+  <td class="montant">79 981 €</td>
+  <td class="participants">1 197</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">7</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/sud-education/collectes/solidarite-avec-les-grevistes-de-l-education">Solidarité avec les grévistes de l'éducation !</a><div class="pill">Éducation</div></td>
+  <td class="montant">67 078 €</td>
+  <td class="participants">1 083</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">8</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/shwk4fae">Solidarité avec les cheminot-es sauvons toutes les retraites</a><div class="pill">SNCF</div></td>
+  <td class="montant">66 386 €</td>
+  <td class="participants">1 057</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D18">
+  <td class="rank">9</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/pbsul2f8">Caisse de solidarité avec les salariés de radio france</a><div class="pill">Média</div></td>
+  <td class="montant">48 841 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">10</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/tdnghgr1">Caisse de lutte contre les réformes blanquer et parcoursup</a><div class="pill">Éducation</div></td>
+  <td class="montant">42 416 €</td>
+  <td class="participants">915</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">11</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/je-soutiens-les-cheminots-en-greve">Je soutiens les cheminots en grève</a><div class="pill">SNCF</div></td>
+  <td class="montant">40 291 €</td>
+  <td class="participants">846</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">12</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/ookjlz4m">Soutien aux cheminot-e-s du bourget</a><div class="pill">SNCF</div></td>
+  <td class="montant">31 234 €</td>
+  <td class="participants">598</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">13</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/z6d9kkvl">Solidarité grévistes cheminots - grève retraites</a><div class="pill">SNCF</div></td>
+  <td class="montant">30 746 €</td>
+  <td class="participants">354</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">14</td>
+  <td class="nom"><a href="https://www.papayoux-solidarite.com/fr/collecte/caisse-des-grevistes-de-saint-denis-93">Caisse des grévistes de saint-denis (93)</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">23 073 €</td>
+  <td class="participants">290</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">15</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/pwz86h14">Soutien aux cheminots de paris sud est</a><div class="pill">SNCF</div></td>
+  <td class="montant">22 059 €</td>
+  <td class="participants">413</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D0">
+  <td class="rank">16</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutient-aux-grevistes-de-la-raffinerie-de-grandpuits">Soutient aux grévistes de la raffinerie de grandpuits</a><div class="pill">Pétrochimie</div></td>
+  <td class="montant">21 090 €</td>
+  <td class="participants">434</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">17</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-financiere-aux-agents-ratp-en-greve">Solidarité financière aux agents ratp en grève</a><div class="pill">RATP</div></td>
+  <td class="montant">19 175 €</td>
+  <td class="participants">446</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">18</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/ys68yqoa">Caisse de grève cgt cheminots versailles</a><div class="pill">SNCF</div></td>
+  <td class="montant">18 137 €</td>
+  <td class="participants">262</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">19</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/7rv6p4j2">Caisse de grève - dépôt de flandre ratp</a><div class="pill">RATP</div></td>
+  <td class="montant">17 510 €</td>
+  <td class="participants">306</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">20</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/arret-images/formulaires/1/widget">Caisse de grève parisienne du 1er degré et des aesh</a><div class="pill">Éducation</div></td>
+  <td class="montant">17 458 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D12">
+  <td class="rank">21</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/axwtx66b">Soutien aux luttes à l'hôpital, les ehpad, les associations.</a><div class="pill">Santé</div></td>
+  <td class="montant">16 355 €</td>
+  <td class="participants">329</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">22</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/mvw5kwml">Soutien aux grévistes de la ratp de lagny !</a><div class="pill">RATP</div></td>
+  <td class="montant">14 576 €</td>
+  <td class="participants">299</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">23</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutien-aux-cheminots-grevistes-de-toulouse">Soutien aux cheminots grévistes de la cgt cheminots de toulouse</a><div class="pill">SNCF</div></td>
+  <td class="montant">12 701 €</td>
+  <td class="participants">196</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">24</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/xo7rsjoh">Caisse de lutte de la chaîne des bahuts et des ecoles</a><div class="pill">Éducation</div></td>
+  <td class="montant">12 252 €</td>
+  <td class="participants">172</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">25</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/2v9az16x">Caisse de solidarité avec les cheminots de midi pyrénées</a><div class="pill">SNCF</div></td>
+  <td class="montant">11 739 €</td>
+  <td class="participants">174</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">26</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/ag-de-l-education-academie-de-grenoble-via-sud-education/collectes/une-caisse-de-greve-pour-continuer-la-greve-reconductible">Une caisse de grève, pour continuer la grève reconductible !</a><div class="pill">Éducation</div></td>
+  <td class="montant">10 691 €</td>
+  <td class="participants">147</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">27</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/r92jzgoa">Soutien aux grévistes de la ratp métro ligne 11</a><div class="pill">RATP</div></td>
+  <td class="montant">10 551 €</td>
+  <td class="participants">132</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">28</td>
+  <td class="nom"><a href="https://www.cotizup.com/caisseeducation67">Caisse de lutte en soutien aux grévistes de l'éducation</a><div class="pill">Éducation</div></td>
+  <td class="montant">10 120 €</td>
+  <td class="participants">108</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">29</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/5bn8ibvh">Solidarité avec les grévistes d'aix-marseille université</a><div class="pill">Éducation</div></td>
+  <td class="montant">9 730 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D7 D8 D1">
+  <td class="rank">30</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/i3yv2x1l">Caisse de grève des salarié-es du commerce et des services</a><div class="pill">Commerce </div><div class="pill">Restauration</div><div class="pill">Services</div></td>
+  <td class="montant">9 730 €</td>
+  <td class="participants">98</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">31</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/l-amul/collectes/sdfsdf">Caisse de grève des personnels de l'université de lille 2019/2020</a><div class="pill">Éducation</div></td>
+  <td class="montant">9 693 €</td>
+  <td class="participants">108</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">32</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/4lrevq4s">Soutien gréviste dépôt vitry ratp</a><div class="pill">RATP</div></td>
+  <td class="montant">9 687 €</td>
+  <td class="participants">173</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">33</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/collecte-de-soutien-aux-salaries-de-la-ratp-en-greve-ouverte-par-force-ouvriere">Collecte de soutien aux salariés de la ratp en grève ouverte par force ouvrière.</a><div class="pill">RATP</div></td>
+  <td class="montant">9 270 €</td>
+  <td class="participants">228</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">34</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/parissaclaycontrelareformedesretraites">Parissaclaycontrelareformedesretraites</a><div class="pill">Éducation</div></td>
+  <td class="montant">9 117 €</td>
+  <td class="participants">191</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">35</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/mbs4pvgf">Ivry contre blanquer delevoye macron</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">8 958 €</td>
+  <td class="participants">124</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">36</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/echafauder-une-alternative-et-un-reveil-democratiques-a-l-ecole/formulaires/1/">Caisse de grève de l'ens de lyon</a><div class="pill">Éducation</div></td>
+  <td class="montant">8 840 €</td>
+  <td class="participants">160</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">37</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/xk3gcnv1">Les grèvistes du centre bus ratp de pleyel</a><div class="pill">RATP</div></td>
+  <td class="montant">8 529 €</td>
+  <td class="participants">94</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">38</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-cgt-cheminots-grevistes-de-rennes">Solidarité cgt cheminots grévistes de rennes</a><div class="pill">SNCF</div></td>
+  <td class="montant">8 490 €</td>
+  <td class="participants">138</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">39</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-cheminots-strasbourg">Caisse de grève des cheminots de strasbourg</a><div class="pill">SNCF</div></td>
+  <td class="montant">8 469 €</td>
+  <td class="participants">144</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">40</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/wya3jwh5">Ratp rer a torcy</a><div class="pill">RATP</div></td>
+  <td class="montant">8 097 €</td>
+  <td class="participants">157</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">41</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/wquum7s6">Caisse de solidarité aux cheminots de l’ariège.</a><div class="pill">SNCF</div></td>
+  <td class="montant">7 845 €</td>
+  <td class="participants">98</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">42</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/rao9x4k3">Cheminots lyon en grève illimitée pour les retraites de tous</a><div class="pill">SNCF</div></td>
+  <td class="montant">7 511 €</td>
+  <td class="participants">129</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">43</td>
+  <td class="nom"><a href="https://www.okpal.com/caisse-de-solidarite-pour-grevistes">Caisse de solidarité pour grévistes</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">7 285 €</td>
+  <td class="participants">81</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">44</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/yrt63wqr">Caisse de grève conducteurs ligne 5</a><div class="pill">RATP</div></td>
+  <td class="montant">6 965 €</td>
+  <td class="participants">142</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">45</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/q1ve1o6x">Caisse de grève personnels rennes 2 en lutte</a><div class="pill">Éducation</div></td>
+  <td class="montant">6 930 €</td>
+  <td class="participants">91</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">46</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/90fgpsgs">Caisse de grève de paris1</a><div class="pill">Éducation</div></td>
+  <td class="montant">6 850 €</td>
+  <td class="participants">122</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">47</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/x8oxyube">Solidarité avec les grévistes ratp de croix nivert</a><div class="pill">RATP</div></td>
+  <td class="montant">6 551 €</td>
+  <td class="participants">79</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">48</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/jkml5zqz">Solidarité gréve contre reforme des retraites sud rail mz/ny</a><div class="pill">SNCF</div></td>
+  <td class="montant">6 503 €</td>
+  <td class="participants">72</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">49</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/jcmx6ckv">Caisse de grève des cheminots de mantes la jolie</a><div class="pill">SNCF</div></td>
+  <td class="montant">6 245 €</td>
+  <td class="participants">92</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">50</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/n0qzj16e">Rs-ratp</a><div class="pill">RATP</div></td>
+  <td class="montant">5 612 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">51</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/7unpq1c7">Soutien aux grévistes ratp massy-montrouge</a><div class="pill">RATP</div></td>
+  <td class="montant">5 610 €</td>
+  <td class="participants">57</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">52</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/lnrk6j0g">Soutien aux cheminots grévistes de trappes et rambouillet</a><div class="pill">SNCF</div></td>
+  <td class="montant">5 315 €</td>
+  <td class="participants">78</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">53</td>
+  <td class="nom"><a href="https://www.papayoux-solidarite.com/fr/collecte/caisse-de-greve-en-soutien-aux-luttes-2">Caisse de grève en soutien aux luttes</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">5 199 €</td>
+  <td class="participants">27</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">54</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/m9kf7s9e">Caisse de grève - personnel mobilisé université nanterre</a><div class="pill">Éducation</div></td>
+  <td class="montant">5 185 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">55</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutien-aux-grevistes-ratp-contre-la-reforme-des-retraites-par-points">Soutien aux grévistes ratp aubervilliers contre la réforme des retraites par points</a><div class="pill">RATP</div></td>
+  <td class="montant">5 175 €</td>
+  <td class="participants">79</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">56</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/fabtulpu">Réforme des retraites: solidarité avec les cheminots en lr !</a><div class="pill">SNCF</div></td>
+  <td class="montant">5 103 €</td>
+  <td class="participants">77</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">57</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/zzlrhs1g">Soutien aux grévistes ratp terminus place d'italie métro 5</a><div class="pill">RATP</div></td>
+  <td class="montant">5 078 €</td>
+  <td class="participants">71</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">58</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/2qj4anqf">Caisse de solidaritè des grèvistes du département de l'eure</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">5 062 €</td>
+  <td class="participants">88</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">59</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/association-de-soutien-aux-initiatives-internationalistes/collectes/caisse-de-greve-des-personnels-de-l-universite-de-lorraine-1">Caisse de grève des personnels de l'université de lorraine</a><div class="pill">Éducation</div></td>
+  <td class="montant">5 057 €</td>
+  <td class="participants">55</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">60</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/wsnxlzpo">Ligne 7 en grève !!!</a><div class="pill">RATP</div></td>
+  <td class="montant">4 967 €</td>
+  <td class="participants">106</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">61</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/ainxyjso">Caisse de grève educ'nat dijon</a><div class="pill">Éducation</div></td>
+  <td class="montant">4 585 €</td>
+  <td class="participants">90</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">62</td>
+  <td class="nom"><a href="https://www.cotizup.com/p7-pour-nos-retraites">Caisse de grève paris 7</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">4 571 €</td>
+  <td class="participants">50</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">63</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-aux-grevistes-du-sdis-65">Solidarité aux grévistes du sdis 65</a><div class="pill">SNCF</div></td>
+  <td class="montant">4 495 €</td>
+  <td class="participants">171</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">64</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/xaz09vfv">Soutien aux grévistes du 77</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">4 232 €</td>
+  <td class="participants">77</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">65</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/tugr98j2">Solidarité cheminots en grève</a><div class="pill">SNCF</div></td>
+  <td class="montant">4 200 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">66</td>
+  <td class="nom"><a href="https://www.paypal.com/pools/c/8kDGdUW24u">Caisse de grève jules verne</a><div class="pill">Éducation</div></td>
+  <td class="montant">4 134 €</td>
+  <td class="participants">72</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">67</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-financiere-avec-les-salaries-sud-ratp-en-greve-organise-par-sud-ratp">Solidarité financière avec les salariés de la ratp en gréve (organisé par sud ratp)</a><div class="pill">RATP</div></td>
+  <td class="montant">4 125 €</td>
+  <td class="participants">81</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D15">
+  <td class="rank">68</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/collectif%20352%2055/collectes/caisse-de-solidarite-de-la-bpi-centre-pompidou-en-lutte">Caisse de solidarité de la bpi (centre pompidou) en lutte !</a><div class="pill">Culture</div></td>
+  <td class="montant">4 120 €</td>
+  <td class="participants">108</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">69</td>
+  <td class="nom"><a href="https://www.papayoux.com/fr/cagnotte/solidarite-greve-reconductible-cheminot-es">Solidarité - grève reconductible cheminot-es</a><div class="pill">SNCF</div></td>
+  <td class="montant">4 095 €</td>
+  <td class="participants">57</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">70</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/lzoxt9om">Caisse de solidarité des cheminots de lyon part dieu</a><div class="pill">SNCF</div></td>
+  <td class="montant">4 052 €</td>
+  <td class="participants">53</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">71</td>
+  <td class="nom"><a href="https://www.leetchi.com/fr/c/l92qGJpw">Solidarité avec les grévistes</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">3 930 €</td>
+  <td class="participants">70</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">72</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/dsbk7se0">Soutien aux grevistes de paris saint lazare et acheres</a><div class="pill">SNCF</div></td>
+  <td class="montant">3 779 €</td>
+  <td class="participants">55</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">73</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/npsxbpi9">Caisse de grève ens ulm/jourdan</a><div class="pill">Éducation</div></td>
+  <td class="montant">3 561 €</td>
+  <td class="participants">58</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">74</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/1ep37jtr">Caisse de solidarité des syndicats cgt des cheminots de pno</a><div class="pill">SNCF</div></td>
+  <td class="montant">3 550 €</td>
+  <td class="participants">30</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D15">
+  <td class="rank">75</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-soutien-bnf">Caisse de soutien bnf</a><div class="pill">Culture</div></td>
+  <td class="montant">3 550 €</td>
+  <td class="participants">111</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">76</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/sud-education-34/collectes/caisse-de-solidarite-des-personnels-de-l-education-de-l-herault">Caisse de solidarité des personnels de l'éducation de l'hérault</a><div class="pill">Éducation</div></td>
+  <td class="montant">3 542 €</td>
+  <td class="participants">67</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">77</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/alqxx1ph">La retraite par point on n'en veut pas!</a><div class="pill">SNCF</div></td>
+  <td class="montant">3 496 €</td>
+  <td class="participants">53</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">78</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/w3xcplk3">Caisse de soutien lignes de métro 3/3bis</a><div class="pill">RATP</div></td>
+  <td class="montant">3 360 €</td>
+  <td class="participants">80</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">79</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/4h9clika">Caisse des grévistes de l’education nationale de l'eure</a><div class="pill">Éducation</div></td>
+  <td class="montant">3 321 €</td>
+  <td class="participants">47</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">80</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/1p23304i">Caisse de solidarité ratp d'ivry sur seine (quai de seine)</a><div class="pill">RATP</div></td>
+  <td class="montant">3 315 €</td>
+  <td class="participants">73</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">81</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/lo4452mv">Solidarité financière personnels en grève - université rouen</a><div class="pill">Éducation</div></td>
+  <td class="montant">3 294 €</td>
+  <td class="participants">22</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">82</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/les-amis-des-droits-constitutionnels/formulaires/1/">Caisse de grève à destination des personnels de jussieu</a><div class="pill">Éducation</div></td>
+  <td class="montant">3 242 €</td>
+  <td class="participants">50</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">83</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/flzp7p3l">Caisse de grève ligne 6</a><div class="pill">RATP</div></td>
+  <td class="montant">3 175 €</td>
+  <td class="participants">61</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">84</td>
+  <td class="nom"><a href="https://www.paypal.com/pools/c/8l3UyCZiFu">Cagnotte de soutien l13</a><div class="pill">RATP</div></td>
+  <td class="montant">3 099 €</td>
+  <td class="participants">73</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">85</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/wgf34n3f">Soutien aux grévistes ratp métro ligne ⓜ️8</a><div class="pill">RATP</div></td>
+  <td class="montant">3 090 €</td>
+  <td class="participants">58</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">86</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/l02py0si">Caisse de solidarité avec les cheminot.es de caen</a><div class="pill">SNCF</div></td>
+  <td class="montant">3 065 €</td>
+  <td class="participants">48</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D8">
+  <td class="rank">87</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/6i3uwghp">Caisse de grève - courtepaille mouvaux</a><div class="pill">Restauration</div></td>
+  <td class="montant">3 061 €</td>
+  <td class="participants">26</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">88</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/99ynw0yh">Solidaires des grévistes de la gare d’austerlitz</a><div class="pill">SNCF</div></td>
+  <td class="montant">3 025 €</td>
+  <td class="participants">31</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">89</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/bgtxl8nh">Caisse de grève personnels de l'en de vitry</a><div class="pill">Éducation</div></td>
+  <td class="montant">2 983 €</td>
+  <td class="participants">50</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">90</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/8jm3p9hu">Caisse de lutte de l'ag education ile-de-france</a><div class="pill">Éducation</div></td>
+  <td class="montant">2 930 €</td>
+  <td class="participants">43</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">91</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/8t6g3by1">Maintenance fontenay sous bois ratp</a><div class="pill">RATP</div></td>
+  <td class="montant">2 877 €</td>
+  <td class="participants">54</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">92</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/0xrxtlry">Ravel solidaire</a><div class="pill">Éducation</div></td>
+  <td class="montant">2 785 €</td>
+  <td class="participants">63</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">93</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/drhhy1qe">Lycée balzac en grève</a><div class="pill">Éducation</div></td>
+  <td class="montant">2 760 €</td>
+  <td class="participants">40</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">94</td>
+  <td class="nom"><a href="https://www.leetchi.com/fr/c/568XzJNl">Cheminots de persan</a><div class="pill">SNCF</div></td>
+  <td class="montant">2 745 €</td>
+  <td class="participants">56</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">95</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/personnel-du-lycee-de-vizille-pour-une-retraite-solidaire-wmer7rkw">Personnel du lycée de vizille pour une retraite solidaire</a><div class="pill">Éducation</div></td>
+  <td class="montant">2 643 €</td>
+  <td class="participants">17</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">96</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-avec-les-grevistes-de-paris-gare-de-lyon">Solidarité avec les cheminots grévistes de paris gare de lyon</a><div class="pill">SNCF</div></td>
+  <td class="montant">2 613 €</td>
+  <td class="participants">59</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">97</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutien-aux-cheminots-cgt-en-greve">Soutien aux cheminots cgt en grève</a><div class="pill">SNCF</div></td>
+  <td class="montant">2 610 €</td>
+  <td class="participants">34</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">98</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/ae9ttmxe">Solidarité grévistes cheminots et autres sud rail/solidaires</a><div class="pill">SNCF</div></td>
+  <td class="montant">2 584 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">99</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/6i9cyxpu">Vies scolaires en colère</a><div class="pill">Éducation</div></td>
+  <td class="montant">2 360 €</td>
+  <td class="participants">38</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">100</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/rvxca5lg">Solidarité ligne 12</a><div class="pill">RATP</div></td>
+  <td class="montant">2 235 €</td>
+  <td class="participants">39</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">101</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-solidarite-pour-les-cheminots-de-la-cgt-de-montereau">Caisse de solidarité pour les cheminots de montereau et sens</a><div class="pill">SNCF</div></td>
+  <td class="montant">2 225 €</td>
+  <td class="participants">48</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">102</td>
+  <td class="nom"><a href="https://www.cotizup.com/ligne4">Luttons contre la réforme des retraites.</a><div class="pill">RATP</div></td>
+  <td class="montant">2 206 €</td>
+  <td class="participants">55</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">103</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/1ds7svo1">Reforme des retraites : caisse de grève du lycée berthelot</a><div class="pill">Éducation</div></td>
+  <td class="montant">2 183 €</td>
+  <td class="participants">40</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">104</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutien-aux-machinistes-grevistes">Soutien aux machinistes grévistes ratp de fontenay</a><div class="pill">RATP</div></td>
+  <td class="montant">2 140 €</td>
+  <td class="participants">32</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">105</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/8zsxuhc0">Dépôt de saint denis</a><div class="pill">RATP</div></td>
+  <td class="montant">2 120 €</td>
+  <td class="participants">46</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">106</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/a289yauc">Cheminots de la loire en lutte, on sort les poings !</a><div class="pill">SNCF</div></td>
+  <td class="montant">2 090 €</td>
+  <td class="participants">33</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">107</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-unsa-ferroviaire-lr">Cagnotte de solidarité unsa ferroviaire lr pour les salariés grévistes</a><div class="pill">SNCF</div></td>
+  <td class="montant">2 080 €</td>
+  <td class="participants">49</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">108</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutient-aux-grevistes-de-la-ratp">Soutient aux grévistes de la ratp (paris belliard)</a><div class="pill">RATP</div></td>
+  <td class="montant">2 077 €</td>
+  <td class="participants">46</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">109</td>
+  <td class="nom"><a href="https://www.lyf.eu/fr/pot/9efa5732-b932-4e02-af92-8c9feaa23a22">Caissedelutte bergson-jacquard</a><div class="pill">Éducation</div></td>
+  <td class="montant">2 050 €</td>
+  <td class="participants">27</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">110</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/fx4vpww8">Caisse de grève | collège jean jaurès de pantin</a><div class="pill">Éducation</div></td>
+  <td class="montant">2 030 €</td>
+  <td class="participants">51</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">111</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/oee1k9z7">Plus d' 1 mois de greve mrb bords de marne neuilly plaisance</a><div class="pill">RATP</div></td>
+  <td class="montant">2 020 €</td>
+  <td class="participants">33</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">112</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/zu036er9">Caisse de greve de solidarite pour les grevistes</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">1 930 €</td>
+  <td class="participants">30</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">113</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutiens-au-greviste-du-centre-bus-de-nanterre">Soutiens au gréviste du centre bus ratp de nanterre</a><div class="pill">RATP</div></td>
+  <td class="montant">1 920 €</td>
+  <td class="participants">30</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">114</td>
+  <td class="nom"><a href="https://www.gofundme.com/f/caisse-de-greve-des-cheminots-de-mulhouse-en-lutte">Caisse de grève des cheminots de mulhouse en lutte</a><div class="pill">SNCF</div></td>
+  <td class="montant">1 910 €</td>
+  <td class="participants">30</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">115</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/hr8pzx98">Soutien aux grévistes contre la réforme des retraites !</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 875 €</td>
+  <td class="participants">25</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">116</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/crev/collectes/caisse-de-greve-de-paris-8">Caisse de grève de paris 8</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 860 €</td>
+  <td class="participants">18</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D14">
+  <td class="rank">117</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/3a2hictv">Caisse de solidarité des électriciens et gaziers</a><div class="pill">Énergie</div></td>
+  <td class="montant">1 842 €</td>
+  <td class="participants">37</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D15">
+  <td class="rank">118</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/2ecqljra">Caisse de soutien aux grévistes du louvre</a><div class="pill">Culture</div></td>
+  <td class="montant">1 835 €</td>
+  <td class="participants">36</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">119</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/sh4ob9um">Le poteau du landy</a><div class="pill">SNCF</div></td>
+  <td class="montant">1 830 €</td>
+  <td class="participants">36</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">120</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/j1m745ko">Caisse de grève contre la réforme des retraites delevoye</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 810 €</td>
+  <td class="participants">28</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">121</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/8yrjsil8">Solidarité cheminots austerlitz 2019</a><div class="pill">SNCF</div></td>
+  <td class="montant">1 801 €</td>
+  <td class="participants">18</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">122</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/45ojyn3d">Solidarité : lutte reconductible réforme des retraites</a><div class="pill">SNCF</div></td>
+  <td class="montant">1 770 €</td>
+  <td class="participants">8</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">123</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/hg1ytdyx">Caisse de grève - jjrousseau mobilisé</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 760 €</td>
+  <td class="participants">21</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">124</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/s4ys25pr">Cheminots mitry mory</a><div class="pill">SNCF</div></td>
+  <td class="montant">1 758 €</td>
+  <td class="participants">33</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">125</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/a165iz43">Bataille des retraites : solidarité avec les cheminots</a><div class="pill">SNCF</div></td>
+  <td class="montant">1 685 €</td>
+  <td class="participants">42</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">126</td>
+  <td class="nom"><a href="https://www.papayoux.com/fr/cagnotte/caisse-cachan-en-lutte">Caisse cachan en lutte</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">1 656 €</td>
+  <td class="participants">43</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">127</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/saint-cricq-greve-solidaire">Saint cricq greve solidaire</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 655 €</td>
+  <td class="participants">28</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D17">
+  <td class="rank">128</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/collecte-des-dechets-angers">Caisse de solidarité collecte des déchets angers</a><div class="pill">Propreté</div></td>
+  <td class="montant">1 640 €</td>
+  <td class="participants">30</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">129</td>
+  <td class="nom"><a href="https://www.gofundme.com/f/soutien-aux-grevistes-du-depot-ratp-de-thiais">Soutien aux grévistes du dépôt ratp de thiais</a><div class="pill">RATP</div></td>
+  <td class="montant">1 620 €</td>
+  <td class="participants">24</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">130</td>
+  <td class="nom"><a href="https://www.leetchi.com/fr/c/rZEXXXy5">Solidarité retraites unsa sncf rhône-alpes</a><div class="pill">SNCF</div></td>
+  <td class="montant">1 510 €</td>
+  <td class="participants">24</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">131</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/it5gccm5">Caisse de grève - collège lavoisier pantin</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 502 €</td>
+  <td class="participants">31</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">132</td>
+  <td class="nom"><a href="https://www.lyf.eu/fr/pot/ac33fe4d-fba2-43e7-9ffb-351fc221d8b4">Caisse solidaire educ rosny</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 490 €</td>
+  <td class="participants">33</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">133</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-avec-les-grevistes-du-rer-a">Solidarité avec les grévistes du rer a</a><div class="pill">RATP</div></td>
+  <td class="montant">1 490 €</td>
+  <td class="participants">24</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">134</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/s7n3aoc8">Caisse de grève du lycée eugène henaff (bagnolet)</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 480 €</td>
+  <td class="participants">39</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">135</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/5e19oi5r">Caisse de grève rer b ratp</a><div class="pill">RATP</div></td>
+  <td class="montant">1 440 €</td>
+  <td class="participants">23</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">136</td>
+  <td class="nom"><a href="https://www.paypal.com/pools/c/8kRaPBbEqB">Caisse de grève pour les grévistes du bassin d’argenteuil</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">1 395 €</td>
+  <td class="participants">14</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">137</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/t0gm3ve1">Soutien aux cheminots de bretigny en greve! (pot cloturé) </a><div class="pill">SNCF</div></td>
+  <td class="montant">1 380 €</td>
+  <td class="participants">13</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">138</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/1auu5zrs">Caisse de grève retraites enseignants cergy</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 315 €</td>
+  <td class="participants">28</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">139</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/udcgt86-caissedelutte">Ud cgt 86 - caisse de lutte contre la réforme des retraites</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">1 295 €</td>
+  <td class="participants">29</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">140</td>
+  <td class="nom"><a href="https://www.paypal.com/pools/c/8jXziOKsa2">Soutenez notre grève reconductible ! collège rmg 93</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 258 €</td>
+  <td class="participants">38</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">141</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/ustgniz8">Caisse de grève des cheminots du technicentre de châtillon</a><div class="pill">SNCF</div></td>
+  <td class="montant">1 230 €</td>
+  <td class="participants">17</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D6">
+  <td class="rank">142</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/xxaf2515">Caisse de grève dgccrf</a><div class="pill">Finance</div></td>
+  <td class="montant">1 223 €</td>
+  <td class="participants">18</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">143</td>
+  <td class="nom"><a href="https://www.cotizup.com/educ64">Caisse de grève - 64</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 217 €</td>
+  <td class="participants">15</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">144</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/0mjz8ni0">Caisse de grève du lycée romain rolland d'ivry</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 190 €</td>
+  <td class="participants">31</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">145</td>
+  <td class="nom"><a href="https://www.paypal.com/pools/c/8kImcY8WeA">Caisse de grève - personnels de l'éducation à saint-priest</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 171 €</td>
+  <td class="participants">19</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">146</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/vrucnup5">Caisse de grève ag92</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">1 163 €</td>
+  <td class="participants">11</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">147</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/ktrqrxk2">Solidarité avec les grèvistes du collège de la pléiade</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 100 €</td>
+  <td class="participants">30</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">148</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/qokcbavc">Caisse de grève : solidarité au collège jean moulin de sannois</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 100 €</td>
+  <td class="participants">14</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">149</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/8iiin1t5">En lutte contre la reforme des retraites</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 085 €</td>
+  <td class="participants">23</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">150</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/lycee-rene-cassin-caisse-de-greve">Lycée rené cassin caisse de grève</a><div class="pill">Éducation</div></td>
+  <td class="montant">1 058 €</td>
+  <td class="participants">28</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">151</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-depot-de-bus-st-maur">Caisse de grève dépôt de bus st-maur</a><div class="pill">RATP</div></td>
+  <td class="montant">1 055 €</td>
+  <td class="participants">27</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D3">
+  <td class="rank">152</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/yuvybrha">Solidarité avec les postiers des yvelines</a><div class="pill">La Poste</div></td>
+  <td class="montant">1 034 €</td>
+  <td class="participants">20</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">153</td>
+  <td class="nom"><a href="https://www.papayoux-solidarite.com/fr/collecte/caisse-de-solidarite-pour-le-collectif-val-d-oise-est">Caisse de solidarité pour le collectif val d'oise est</a><div class="pill">Éducation</div></td>
+  <td class="montant">995 €</td>
+  <td class="participants">16</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">154</td>
+  <td class="nom"><a href="https://www.papayoux-solidarite.com/fr/collecte/caisse-de-solidarite-du-college-robespierre-epinay-sur-seine">Caisse de solidarité du collège robespierre (epinay-sur-seine)</a><div class="pill">Éducation</div></td>
+  <td class="montant">957 €</td>
+  <td class="participants">22</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">155</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/24pqt2vd">Caisse de grève école aristide briand lyon7</a><div class="pill">Éducation</div></td>
+  <td class="montant">955 €</td>
+  <td class="participants">34</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">156</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/n0mriecj">Caisse de solidarité cgt des cheminots de nîmes</a><div class="pill">SNCF</div></td>
+  <td class="montant">940 €</td>
+  <td class="participants">11</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">157</td>
+  <td class="nom"><a href="https://www.cotizup.com/fsu-toulouse3-retraite-greve">Fsu-toulouse 3 : caisse de grève retraite à points</a><div class="pill">Éducation</div></td>
+  <td class="montant">935 €</td>
+  <td class="participants">16</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">158</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/9pr1jgw7">Caisse de grève lycée descartes - rennes</a><div class="pill">Éducation</div></td>
+  <td class="montant">933 €</td>
+  <td class="participants">17</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">159</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-lycee-galilee-gennevilliers">Caisse de grève lycée galilée (gennevilliers)</a><div class="pill">Éducation</div></td>
+  <td class="montant">899 €</td>
+  <td class="participants">20</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D15">
+  <td class="rank">160</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/9ocu6wq9">Caisse de grève cmn contre la réforme des retraites</a><div class="pill">Culture</div></td>
+  <td class="montant">898 €</td>
+  <td class="participants">6</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">161</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/v5cbr6o4">Soution à la mobilisation contre la réforme des retraites</a><div class="pill">Éducation</div></td>
+  <td class="montant">885 €</td>
+  <td class="participants">30</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">162</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-solidarite-des-cheminots-de-paris-montparnasse">Caisse de solidarité des cheminots de paris montparnasse</a><div class="pill">SNCF</div></td>
+  <td class="montant">870 €</td>
+  <td class="participants">21</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">163</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/52vnduq7">Caisse de grève evariste</a><div class="pill">Éducation</div></td>
+  <td class="montant">850 €</td>
+  <td class="participants">19</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">164</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-grevistes-sud-rail-dijon">Solidarité grévistes sud-rail dijon</a><div class="pill">SNCF</div></td>
+  <td class="montant">845 €</td>
+  <td class="participants">17</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">165</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/9e4b17wm">Soutien aux cheminots de la déodatie</a><div class="pill">SNCF</div></td>
+  <td class="montant">830 €</td>
+  <td class="participants">11</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">166</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/yawmji0l">Caisse de grève belzunce</a><div class="pill">Éducation</div></td>
+  <td class="montant">830 €</td>
+  <td class="participants">15</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">167</td>
+  <td class="nom"><a href="https://www.papayoux-solidarite.com/fr/collecte/caisse-de-greve-education-pour-les-grevistes-d-eure-et">Caisse de grève éducation pour les grévistes du 28</a><div class="pill">Éducation</div></td>
+  <td class="montant">820 €</td>
+  <td class="participants">7</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">168</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-la-martiniere-duchere">Caisse de grève la martinière duchère</a><div class="pill">Éducation</div></td>
+  <td class="montant">805 €</td>
+  <td class="participants">21</td>
+  </tr>
+  
+  <tr class="caisse" domaines="">
+  <td class="rank">169</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/201ub0gp">Caisse de grève snuipp-fsu du doubs</a></td>
+  <td class="montant">760 €</td>
+  <td class="participants">11</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">170</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/90tvahvs">Collège pierre mendès france en lutte</a><div class="pill">Éducation</div></td>
+  <td class="montant">760 €</td>
+  <td class="participants">12</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">171</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-aed">Solidarité grève fragonard</a><div class="pill">Éducation</div></td>
+  <td class="montant">755 €</td>
+  <td class="participants">28</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">172</td>
+  <td class="nom"><a href="https://www.papayoux-solidarite.com/fr/collecte/solidarite-avec-les-grevistes-sud-rail-lille">Solidarité avec les cheminots grévistes - sud-rail lille</a><div class="pill">SNCF</div></td>
+  <td class="montant">740 €</td>
+  <td class="participants">11</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">173</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/college-maupassant/collectes/caisse-de-greve">Caisse de grève</a><div class="pill">Éducation</div></td>
+  <td class="montant">730 €</td>
+  <td class="participants">20</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">174</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/dacvuskv">Soutien aux cheminots de gare du nord</a><div class="pill">SNCF</div></td>
+  <td class="montant">728 €</td>
+  <td class="participants">26</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">175</td>
+  <td class="nom"><a href="https://cagnotte.me/caisse-blanqui/fr">Caisse de grève lycée auguste blanqui st ouen</a><div class="pill">Éducation</div></td>
+  <td class="montant">726 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">176</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/pogweu53">Caisse de grève</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">725 €</td>
+  <td class="participants">15</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D15">
+  <td class="rank">177</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/je049b5i">Caisse de solidarité avec les grévistes de l'archéologie</a><div class="pill">Culture</div></td>
+  <td class="montant">710 €</td>
+  <td class="participants">22</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">178</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/2hmiucvp">Caisse de grève louis blanc</a><div class="pill">Éducation</div></td>
+  <td class="montant">680 €</td>
+  <td class="participants">13</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D14">
+  <td class="rank">179</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-cgt-energie-78">Caisse de grève cgt énergie 78</a><div class="pill">Énergie</div></td>
+  <td class="montant">680 €</td>
+  <td class="participants">16</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">180</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/10o7tbcg">Caisse de grève - collège valmy</a><div class="pill">Éducation</div></td>
+  <td class="montant">660 €</td>
+  <td class="participants">16</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">181</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-pour-les-grevistes-de-lyon-2">Caisse de grève pour les grévistes de lyon 2</a><div class="pill">Éducation</div></td>
+  <td class="montant">642 €</td>
+  <td class="participants">22</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D14">
+  <td class="rank">182</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-cgt-energie-93">Caisse de grève cgt énergie 93</a><div class="pill">Énergie</div></td>
+  <td class="montant">640 €</td>
+  <td class="participants">17</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">183</td>
+  <td class="nom"><a href="https://www.papayoux.com/fr/cagnotte/evariste-galois-93800-grevistes-et-solidaires">Évariste galois 93800 - grévistes et solidaires !</a><div class="pill">Éducation</div></td>
+  <td class="montant">640 €</td>
+  <td class="participants">28</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">184</td>
+  <td class="nom"><a href="https://www.paypal.com/pools/c/8kIPCEVhkx">Caisse de greve - ecoles lyon 09</a><div class="pill">Éducation</div></td>
+  <td class="montant">620 €</td>
+  <td class="participants">8</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D5">
+  <td class="rank">185</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/5jlmekp4">La cgt haribo en lutte contre la réforme des retraites</a><div class="pill">Agroalimentaire</div></td>
+  <td class="montant">590 €</td>
+  <td class="participants">12</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">186</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/5pipiktg">Caisse de grève du lycée chaplin</a><div class="pill">Éducation</div></td>
+  <td class="montant">590 €</td>
+  <td class="participants">17</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">187</td>
+  <td class="nom"><a href="https://www.colleo.fr/cagnotte/17302/solidarite-greve-contre-la-reforme-des-retraites">Solidarité grève contre la réforme des retraites</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">560 €</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D12">
+  <td class="rank">188</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-fo-sante-privee">Caisse de grève fo santé privée 49</a><div class="pill">Santé</div></td>
+  <td class="montant">555 €</td>
+  <td class="participants">9</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">189</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/r0592g7e">Expats solidaires en defense de retraite par répartition</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">542 €</td>
+  <td class="participants">8</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">190</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/mn8hzjx1">Solidarité avec les cheminots chalonais</a><div class="pill">SNCF</div></td>
+  <td class="montant">537 €</td>
+  <td class="participants">12</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">191</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/fe6oo1o7">Caisse de solidarité avec les collègues aed et précaires</a><div class="pill">Éducation</div></td>
+  <td class="montant">524 €</td>
+  <td class="participants">26</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">192</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutenons-les-enseignants-en-greve">Soutenons les enseignants en grève à achères et à conflans !</a><div class="pill">Éducation</div></td>
+  <td class="montant">510 €</td>
+  <td class="participants">23</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2 D11">
+  <td class="rank">193</td>
+  <td class="nom"><a href="https://www.cotizup.com/caissedegreve-cgt-tefp-77">Caisse de grève - contre la réforme des retraites - cgt</a><div class="pill">Éducation</div><div class="pill">RATP</div></td>
+  <td class="montant">500 €</td>
+  <td class="participants">7</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2 D11">
+  <td class="rank">194</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/enseignants-agents-ratp">Enseignants & agents ratp</a><div class="pill">Éducation</div><div class="pill">RATP</div></td>
+  <td class="montant">500 €</td>
+  <td class="participants">10</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">195</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/9c3xnwr0">Solidarité avec les personnels du collège renoir 92 en grève</a><div class="pill">Éducation</div></td>
+  <td class="montant">480 €</td>
+  <td class="participants">13</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">196</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/solidarite-vie-scolaire-aesh-greve-du-10-12-19">Solidarité vie scolaire/aesh grève du 10.12.19</a><div class="pill">Éducation</div></td>
+  <td class="montant">475 €</td>
+  <td class="participants">16</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">197</td>
+  <td class="nom"><a href="https://www.papayoux.com/fr/cagnotte/caisse-de-greve-upem">Caisse de grève upem</a><div class="pill">Éducation</div></td>
+  <td class="montant">455 €</td>
+  <td class="participants">9</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">198</td>
+  <td class="nom"><a href="https://www.gofundme.com/f/caisse-solidarite-greve-retraite-snetap-pdl">Caisse solidarité grève retraite snetap pdl</a><div class="pill">Éducation</div></td>
+  <td class="montant">450 €</td>
+  <td class="participants">12</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">199</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutien-aux-cheminots-landais">Soutien aux cheminots landais</a><div class="pill">SNCF</div></td>
+  <td class="montant">420 €</td>
+  <td class="participants">7</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">200</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/xt1rn3ar">Lycée delacroix m-a (94) contre la réforme des retraites</a><div class="pill">Éducation</div></td>
+  <td class="montant">415 €</td>
+  <td class="participants">9</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D15">
+  <td class="rank">201</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/iexz28ja">Caisse de grève de la bulac</a><div class="pill">Culture</div></td>
+  <td class="montant">410 €</td>
+  <td class="participants">16</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">202</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/w02zlodl">Caisse grève inter pro 91</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">350 €</td>
+  <td class="participants">7</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">203</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/wuoqfx2p">Caisse de solidarité aux cheminots</a><div class="pill">SNCF</div></td>
+  <td class="montant">317 €</td>
+  <td class="participants">7</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">204</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/alvknwa3">Caisse de grève contre la réforme macron des retraites</a><div class="pill">Éducation</div></td>
+  <td class="montant">290 €</td>
+  <td class="participants">10</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">205</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/m2mrsik3">En lutte contre la réforme des retraites</a><div class="pill">Éducation</div></td>
+  <td class="montant">290 €</td>
+  <td class="participants">10</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D11">
+  <td class="rank">206</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/dsdkobfq">Soutient aux machinistes ratp du dépôt bus de créteil</a><div class="pill">RATP</div></td>
+  <td class="montant">280 €</td>
+  <td class="participants">6</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">207</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/3153bg4j">Solidarité grévistes de la cgt des cheminots de saint denis</a><div class="pill">SNCF</div></td>
+  <td class="montant">280 €</td>
+  <td class="participants">5</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">208</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/g84knjvy">Caisse de solidarité des stylos rouges aix marseille</a><div class="pill">Éducation</div></td>
+  <td class="montant">260 €</td>
+  <td class="participants">10</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">209</td>
+  <td class="nom"><a href="https://www.papayoux-solidarite.com/fr/collecte/caisse-de-greve-paul-eluard-garges-les-gonesse">Caisse de grève paul eluard(garges-lès-gonesse)</a><div class="pill">Éducation</div></td>
+  <td class="montant">245 €</td>
+  <td class="participants">13</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">210</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/2eko5km7">Instits grévistes fontenay sb vincennes nogent le perreux</a><div class="pill">Éducation</div></td>
+  <td class="montant">240 €</td>
+  <td class="participants">9</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">211</td>
+  <td class="nom"><a href="https://www.cotizup.com/curiebondy">Soutenez les grévistes du collège p.curie de bondy (93)</a><div class="pill">Éducation</div></td>
+  <td class="montant">235 €</td>
+  <td class="participants">6</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">212</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/0yp167np">Caisse de grève collège aubrac</a><div class="pill">Éducation</div></td>
+  <td class="montant">205 €</td>
+  <td class="participants">11</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">213</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-du-lycee-jean-moulin-de-roubaix">Caisse de grève du lycée jean moulin de roubaix</a><div class="pill">Éducation</div></td>
+  <td class="montant">200 €</td>
+  <td class="participants">6</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">214</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/1e9vn7uk">Caisse de solidarité grève des personnels</a><div class="pill">Éducation</div></td>
+  <td class="montant">185 €</td>
+  <td class="participants">6</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">215</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/wallonelembajot">Wallonelembajot</a><div class="pill">Éducation</div></td>
+  <td class="montant">180 €</td>
+  <td class="participants">4</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">216</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/fkpuuljk">Solidarité pour les cheminots grévistes (ligne des alpes)</a><div class="pill">SNCF</div></td>
+  <td class="montant">150 €</td>
+  <td class="participants">3</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">217</td>
+  <td class="nom"><a href="https://www.papayoux-solidarite.com/fr/collecte/caisse-de-greve-pour-les-grevistes-deure-et-loir">Caisse de grève pour les grévistes deure et loir</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">150 €</td>
+  <td class="participants">2</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">218</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/1hdftf1k">Solidarité grévistes du collège de l'europe (chelles)</a><div class="pill">Éducation</div></td>
+  <td class="montant">136 €</td>
+  <td class="participants">5</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">219</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/2m107g90">Caisse de grève victoire daubie 01</a><div class="pill">Éducation</div></td>
+  <td class="montant">120 €</td>
+  <td class="participants">2</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">220</td>
+  <td class="nom"><a href="https://www.paypal.com/pools/c/8kIJEimURU">Caisse de grève des personnels du collège simone de beauvoir</a><div class="pill">Éducation</div></td>
+  <td class="montant">95 €</td>
+  <td class="participants">5</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D12">
+  <td class="rank">221</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-fo-ch-libourne">Caisse de grève - fo ch libourne</a><div class="pill">Santé</div></td>
+  <td class="montant">90 €</td>
+  <td class="participants">2</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">222</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/bjx5zqnk">Caisse de grève des personnels du lycée louise michel</a><div class="pill">Éducation</div></td>
+  <td class="montant">85 €</td>
+  <td class="participants">4</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">223</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caissegrevesnuipp45">Caisse de grève snuipp45</a><div class="pill">Éducation</div></td>
+  <td class="montant">56 €</td>
+  <td class="participants">2</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D4">
+  <td class="rank">224</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-des-dockers">Caisse de grève des dockers</a><div class="pill">Portuaire</div></td>
+  <td class="montant">20 €</td>
+  <td class="participants">1</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D9">
+  <td class="rank">225</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/0oz7r5n8">Caisse de soutien aux grévistes de l'hôtel ibis batignolles</a><div class="pill">Tourisme</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">1 283</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">226</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-solidarite-unsa-ferroviaire-pour-les-grevistes">Caisse de solidarité unsa-ferroviaire pour les grévistes</a><div class="pill">SNCF</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">170</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D12">
+  <td class="rank">227</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutien-urgences-cochin">Soutien urgences cochin</a><div class="pill">Santé</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">186</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">228</td>
+  <td class="nom"><a href="https://www.helloasso.com/associations/snes-montpellier/formulaires/1/widget">Caisse de grève du snes montpellier</a><div class="pill">Éducation</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">229</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/g2mhqi7a">Caisse de solidarité de l'éducation du 82</a><div class="pill">Éducation</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">7</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">230</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/919tuutl">Soutiens au gréviste de la ratp métro ligne 12</a><div class="pill">Éducation</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D13">
+  <td class="rank">231</td>
+  <td class="nom"><a href="https://www.lepotcommun.fr/pot/wz57u1l3">Caisse de greve et de solidarite</a><div class="pill">Interprofessionnel</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">2</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D9">
+  <td class="rank">232</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/mcvvrkn0">Caisse de solidarité "sous-traitrance hotelière en lutte"</a><div class="pill">Tourisme</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">350</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D9">
+  <td class="rank">233</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/soutien-mouvement-social-de-lhotel-intercontinental">Soutien mouvement social de l'hôtel intercontinental</a><div class="pill">Tourisme</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">28</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">234</td>
+  <td class="nom"><a href="https://www.leetchi.com/c/caisse-de-greve-cfdt-cheminots-decembre-2019">Caisse de grève cfdt cheminots</a><div class="pill">SNCF</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">168</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D10">
+  <td class="rank">235</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/a498624g">Caisse de solidarité cgt des cheminots de montpellier</a><div class="pill">SNCF</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">34</td>
+  </tr>
+  
+  <tr class="caisse" domaines="D2">
+  <td class="rank">236</td>
+  <td class="nom"><a href="https://www.lepotsolidaire.fr/pot/qgrmunvy">Caisse de grève écoles récollets</a><div class="pill">Éducation</div></td>
+  <td class="montant">N/D</td>
+  <td class="participants">N/D</td>
+  </tr>
+  
+  </tbody>
+  </table>
+  <script>
+  (function() {
+    function updateFilter() {
+      var filters = document.querySelectorAll(".pillfilter.selected");
+      var filter = [];
+      for (var i = 0; i < filters.length; i++) {
+        filter.push(filters[i].getAttribute('target'));
+      }
+      var caisses = document.querySelectorAll(".caisse");
+      console.log(filter);
+      for (var i = 0; i < caisses.length; i++) {
+        if (filter.length==0 || caisses[i].getAttribute('domaines').split(' ').some(function(elt) { return filter.includes(elt);})) {
+          caisses[i].style.display = "";
+        } else {
+          caisses[i].style.display = "none";
+        }
+      }
+
+    }
+    var elements = document.querySelectorAll(".pillfilter");
+    for (var i = 0; i < elements.length; i++) {
+      elements[i].addEventListener("click", function() {
+        this.classList.toggle('selected');
+        updateFilter();
+      });
+    }
+  })();
+  </script>
+
+
+</body>
+</html>
