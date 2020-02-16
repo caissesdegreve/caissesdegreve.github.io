@@ -15,7 +15,7 @@ window.onload = function() {
       }
   };
   function updatetotal() {
-    xmlhttp.open("GET", url, true);
+    xmlhttp.open("GET", url + '?' + (new Date()).getTime(), true);
     xmlhttp.send();
   }
 
