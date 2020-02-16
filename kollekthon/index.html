@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+  <meta name="description" content="Compteur #KOLLEKTHON"/>
+  <meta property="og:title" content="Soutien à la grève"/>
+  <meta property="og:description" content="Contre la réforme de retraite."/>
+  <meta property="og:image" content="https://caissesdegreve.github.io/visuel1581807368.jpg"/>
+  <meta property="og:site_name" content="Participez aux caisses de grève"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:alt" content="Participez aux caisses de grève"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
+  <title>Participez aux caisses de grève</title>
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+    }
+    html {
+    margin:0;
+    padding:0;
+    background: url(bg.jpg) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    }
+    .title {
+      font-weight: 800;
+      margin-top: 5vh;
+      display: inline-block;
+      text-align: center;
+      color: #e12e43;
+        background-color: #feed01;
+    }
+    #total {
+      font-weight: 800;
+      margin-top: 7vh;
+      display: inline-block;
+      text-align: center;
+      background-color: #65150e;
+      color: white;
+    }
+    .participe {
+      padding: 10px 40px;
+      position: relative;
+      top: -3.5vh;
+      background-color: #669a2e;
+      display: inline-block;
+      font-weight: 700;
+      color: white;
+      font-size: 30px;
+      text-decoration: none;
+      transition: transform .2s; /* Animation */
+    }
+    a:hover {
+      transform: scale(1.2);
+    }
+
+    @media screen and (min-width: 601px) {
+      div.title {
+        font-size: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      #total {
+        font-size: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+    }
+    @media screen and (min-width: 701px) {
+      .container {
+        display: inline-block;
+        padding-left:10vw;
+        padding-right: 10vw;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      div.title {
+        font-size: 10vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
+      }
+      #total {
+        font-size: 14vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+      }
+      .participe {
+        padding: 2vw 4vw;
+        font-size: 7vw
+      }
+
+    }
+    .container {
+      background-color: #e12e43ee;
+      margin-top: 15vh;
+      padding-bottom:10vh;
+    }
+
+
+  </style>
+  <script src="countUp.min.js" type="module"></script>
+  <script src="main.js" type="module"></script>
+  <script>
+    var currentval = 0;
+    var newval;
+  </script>
+</head>
+<body>
+  <div class="container">
+  <div><div class="title">#KOLLEKTHON</div></div>
+  <div><div id="total">0 €</div></div>
+  </div>
+  <div><a class="participe" href="https://www.lepotsolidaire.fr/pot/vqwp2hhp">JE PARTICIPE !</a></div>
+</body>
+</html>
