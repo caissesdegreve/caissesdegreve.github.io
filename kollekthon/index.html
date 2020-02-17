@@ -59,10 +59,26 @@
       text-decoration: none;
       transition: transform .2s; /* Animation */
     }
-    a:hover {
+    a.participe:hover {
       transform: scale(1.2);
     }
-
+    .suivre {
+      padding: 10px 40px;
+      position: relative;
+      background-color: #000000FF;
+      border: white solid 1px;
+      display: inline-block;
+      /* font-size: 12px; */
+      font-weight: 700;
+      color: white;
+      font-size: 20px;
+      line-height: 20px;
+      text-decoration: none;
+      transition: transform .2s;
+    }
+    a.suivre:hover {
+      transform: scale(1.1);
+    }
     @media screen and (min-width: 601px) {
       div.title {
         font-size: 60px;
@@ -94,9 +110,16 @@
         padding-left: 10vw;
         padding-right: 10vw;
       }
+      .suivre {
+        font-size: 5vw;
+        line-height: 5vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+      }
+
       .participe {
         padding: 2vw 4vw;
-        font-size: 7vw
+        font-size: 7vw;
       }
 
     }
@@ -104,6 +127,9 @@
       background-color: #e12e43ee;
       margin-top: 15vh;
       padding-bottom:10vh;
+    }
+    span strong {
+      font-weight: 900;
     }
 
 
@@ -121,5 +147,6 @@
   <div><div id="total">0 €</div></div>
   </div>
   <div><a class="participe" href="https://www.lepotsolidaire.fr/pot/vqwp2hhp">JE PARTICIPE !</a></div>
+  <div><a class="suivre" href="https://youtu.be/XN1-01pRvNw"><span style="white-space: nowrap;">👉 Suivez le #KOLLEKTHON</span> <span  style="white-space: nowrap;">en direct sur <strong>Le Média</strong></span></a></div>
 </body>
 </html>
