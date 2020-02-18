@@ -21,6 +21,6 @@ window.onload = function() {
 
   window.setInterval(function() {
     updatetotal();
-  }, 10000);
+  }, 60000);
   updatetotal();
 }
