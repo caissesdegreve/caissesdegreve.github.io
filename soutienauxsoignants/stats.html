@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf8">
+  <meta name="description" content="Soutien à la grève"/>
+  <meta property="og:title" content="Compteur #KOLLEKTHON"/>
+  <meta property="og:description" content="Contre la réforme de retraite."/>
+  <meta property="og:image" content="https://caissesdegreve.github.io/kollekthon/preview.jpg"/>
+  <meta property="og:site_name" content="Compteur #KOLLEKTHON"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:image:alt" content="Compteur #KOLLEKTHON"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800,900&display=swap" rel="stylesheet">
+  <title>Participez au #KOLLEKTHON</title>
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+    }
+    html {
+    margin:0;
+    padding:0;
+    background: url(bg.jpg) no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    }
+
+
+    .container {
+      margin-top: 15vh;
+    }
+    #chart {
+      margin: 5vw;
+      height: 70vh;
+    }
+
+  </style>
+  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+  <script>
+      var xmlhttp = new XMLHttpRequest();
+      var url = "history.json";
+
+      xmlhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+              var data = [JSON.parse(this.responseText)];
+              Plotly.newPlot('chart', data);
+              // newval = currentval + 1123;
+          }
+      };
+      xmlhttp.open("GET", url, true);
+      xmlhttp.send();
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div id="chart"></div>
+  </div>
+</body>
+</html>
